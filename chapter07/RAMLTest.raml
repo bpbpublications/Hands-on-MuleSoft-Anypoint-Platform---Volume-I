@@ -1,0 +1,65 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/75f39179-12c4-4a72-a73c-cf8064b39894/ # 
+title: RAMLTest
+
+/getEmployeeDetails:
+  get:
+    description: getEmployeeDetails;
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                { "id" : 1, "name" : "emp7" },
+                { "id" : 2, "name" : "emp7" }
+              ]
+
+/postEmployeeDetails:
+ post:
+    description: Create an Employee
+    body:
+      application/json:
+        example: { "id" : 5, "name" : "emp7" }
+    responses:
+      201:
+        body:
+          application/json:
+            example: { "id" : 5, "name" : "emp7" }
+
+
+/updateEmployeeDetail/{id}:
+    put:
+      description: Update Employee id
+      body:
+        application/json:
+            example: { "id" : 5, "name" : "emp7" }
+      responses:
+        200:
+          body:
+            application/json:
+              example: { "id" : 5, "name" : "emp7" }
+
+/deleteEmployeeDetail/{id}:
+ get:
+    description: delete EmployeeDetails;
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                { "id" : 2, "name" : "emp7" }
+              ]
+
+/getEmployeeDetail/{id}:
+ get:
+    description: get EmployeeDetails;
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                { "id" : 2, "name" : "emp7" }
+              ]

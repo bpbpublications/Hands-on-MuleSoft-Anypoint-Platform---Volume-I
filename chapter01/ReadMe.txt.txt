@@ -1,0 +1,1 @@
+No source code provided for this chapter 1 MuleSoft Fundamentals, but readers are requested to explore MuleSoft resources, blogs, handy guides, etc.
