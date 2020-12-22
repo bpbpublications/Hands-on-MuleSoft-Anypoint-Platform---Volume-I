@@ -1,7 +1,7 @@
 # Hands-on MuleSoft Anypoint platform Volume 1
 Designing and Implementing RAML APIs with MuleSoft Anypoint Platform
  
-This is the code repository for [Hands-on MuleSoft Anypoint platform Volume 1](), published by BPB Publications. It contains all the supporting project files necessary to work through the journey of this book
+This is the code repository for [Hands-on MuleSoft Anypoint platform Volume 1](https://bpbonline.com/products/hands-on-mulesoft-anypoint-platform-volume-1), published by BPB Publications. It contains all the supporting project files necessary to work through the journey of this book
 
 ## About the Book
 Hands-on MuleSoft Anypoint platform book directs you step-by-step in designing API, its Implementation, and how to integrate smartly with other applications. This book is enriched with lots of interactive screenshots and working source codes. Throughout this book, you will learn key industry insights on System Integration, API Led Connectivity, Centre for Enablement, and RAML. This book will talk about how to use publicly available free mock REST APIs and how to call and test them from RESTful clients like Postman. You can also see some of the commercially available license-based APIs.
